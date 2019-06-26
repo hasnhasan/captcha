@@ -1,6 +1,6 @@
 <?php
 
-namespace HasnHasan\Captcha\Contracts;
+namespace hasnhasan\Captcha\Contracts;
 
 interface CaptchaDecoder
 {

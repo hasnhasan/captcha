@@ -1,6 +1,6 @@
 <?php
 
-namespace HasnHasan\Captcha\Facades;
+namespace hasnhasan\Captcha\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

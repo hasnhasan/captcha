@@ -1,9 +1,9 @@
 <?php
 
-namespace HasnHasan\Captcha;
+namespace hasnhasan\Captcha;
 
 use Illuminate\Support\ServiceProvider;
-use HasnHasan\Captcha\Captcha\CaptchaManager;
+use hasnhasan\Captcha\Captcha\CaptchaManager;
 
 class CaptchaServiceProvider extends ServiceProvider
 {
