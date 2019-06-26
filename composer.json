@@ -1,0 +1,27 @@
+{
+    "name": "hasnhasan/captcha",
+    "type": "library",
+    "description": "Captcha Decoder",
+    "authors": [
+        {
+            "name": "Hasan Özsezgin",
+            "email": "hasan.ozsezgin@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "hasnhasan\\Captcha\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "hasnhasan\\Captcha\\CaptchaServiceProvider"
+            ],
+            "aliases": {
+                "Captcha": "hasnhasan\\Captcha\\Facades\\Captcha"
+            }
+        }
+    }
+}
