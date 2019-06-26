@@ -32,7 +32,7 @@ class CaptchaServiceProvider extends ServiceProvider
 		]);
 
 		$this->mergeConfigFrom(
-			__DIR__.'/config/captcha-decoder.php',
+			__DIR__.'/Configs/captcha-decoder.php',
 			'captcha-decoder'
 		);
 
