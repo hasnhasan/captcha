@@ -1,8 +1,8 @@
 <?php
 
-namespace HasnHasan\Captcha\Captcha;
+namespace hasnhasan\Captcha\Captcha;
 
-use HasnHasan\Captcha\Contracts\CaptchaDecoder;
+use hasnhasan\Captcha\Contracts\CaptchaDecoder;
 
 require_once 'ImageTyperz/ImageTyperzApi.php';
 

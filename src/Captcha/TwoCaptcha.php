@@ -1,9 +1,9 @@
 <?php
 
-namespace HasnHasan\Captcha\Captcha;
+namespace hasnhasan\Captcha\Captcha;
 
 use GuzzleHttp\Client;
-use HasnHasan\Captcha\Contracts\CaptchaDecoder;
+use hasnhasan\Captcha\Contracts\CaptchaDecoder;
 
 class TwoCaptcha implements CaptchaDecoder
 {
